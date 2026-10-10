@@ -8,7 +8,8 @@
     {
       "@id": "https://repolex.ai/r/aio-libs/aiohttp-cors/commit/041b99b3ea3d24cc6eb756e58ebfda3032ad5037",
       "git:hexsha": "041b99b3ea3d24cc6eb756e58ebfda3032ad5037",
-      "repolex:parseStatus": "ast_complete"
+      "repolex:parseStatus": "parsed",
+      "repolex:parsedAt": "2026-10-10T19:03:54.921775+00:00"
     },
     {
       "@id": "https://repolex.ai/r/aio-libs/aiohttp-cors/commit/ce42c8e3037a274120e71c9e58bd604e9d9bf9e9",
