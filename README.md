@@ -1,1 +1,118 @@
-Initializing
+# Repolex Knowledge Graph of aio-libs/aiohttp-cors
+
+RDF knowledge graph data for [aio-libs/aiohttp-cors](https://github.com/aio-libs/aiohttp-cors), parsed by [repolex](https://repolex.ai).
+
+> **Note**: This data is experimental and subject to change without notice.
+
+## How to use this data
+
+The easiest way to get started is to install the [rlex](https://github.com/repolex-ai/rlex) query tool:
+
+```bash
+cargo install --git https://github.com/repolex-ai/rlex
+```
+
+Verify the install:
+
+```bash
+rlex --help
+```
+
+**rlex is designed to be used primarily by LLMs in a terminal.** Start up your favorite AI assistant and ask it to use rlex. It handles the SPARQL — you just ask questions in plain English.
+
+To load this repo's data:
+
+```bash
+rlex download aio-libs/aiohttp-cors
+```
+
+Consult `rlex --help` for other options, including SPARQL queries, HTTP server, and interactive visualization.
+
+## Data structure
+
+All data is stored as gzip-compressed [N-Quads](https://www.w3.org/TR/n-quads/) (`.nq.gz`), a standard RDF format that can be loaded into any triplestore or graph database.
+
+```
+.
+├── aggregate
+│   ├── ast
+│   │   └── 041b99b3ea3d24cc6eb756e58ebfda3032ad5037
+│   │       └── chunk-001.nq.gz
+│   └── repolex
+│       └── 041b99b3ea3d24cc6eb756e58ebfda3032ad5037
+│           └── chunk-001.nq.gz
+├── blob
+│   ├── 004cf413726f114e70ced310d297585139466dcd.nq.gz
+│   ├── 27e8cf78871f1782be6a9feeaf5f74762fb44f20.nq.gz
+│   ├── 341cd4843ef90df792374c09b1ff86133b40c03d.nq.gz
+│   ├── 34658a794fa794174cb58c59b2200f382fa2bc32.nq.gz
+│   ├── 36979982708b367032730848375b2a457cf360b8.nq.gz
+│   ├── 3ec2eb9614eb8f06785bd4452f35e131a4b32afd.nq.gz
+│   ├── 3f9353aed7d9376d4add7ba0e8ffa45766b5ce84.nq.gz
+│   ├── 44930333d2c0070a62c06f700a0b4b52bc30a4bc.nq.gz
+│   ├── 472191a903220b1ecdb5ecb6c3604c20ce782a9a.nq.gz
+│   ├── 4aac13a2f492636ac9ba0b7896bbd4d9019aa81d.nq.gz
+│   ├── 55424d2223a04fe0d7fee62512760f2538a3e5f8.nq.gz
+│   ├── 6125204d6837322f4a209668de27e85c88effdbb.nq.gz
+│   ├── 62b5c00d919bb41c5dc2f1025c63370155cb8932.nq.gz
+│   ├── 6667deaad5a5c7102e2f34155ff6360ebcfca9e3.nq.gz
+│   ├── 666c6feb890516c249cdd4a7c8cc679cc1e8f96e.nq.gz
+│   ├── 67fdcc7cdb3df0eb2d113ef1860717b65fc2487a.nq.gz
+│   ├── 6d7551b0a2364f2aabeb0d83a0799a0ca36b65ab.nq.gz
+│   ├── 73d5fdd80c9f2b3b8c55e28b2052a033386bae64.nq.gz
+│   ├── 75f971166aa4063943ec9c92aed81e04aac28046.nq.gz
+│   ├── 7dd912be651829fd50b8cd8ea1a154da5746a011.nq.gz
+│   ├── 809dbfd572057ce2eb3281f6b377bbb3126b738c.nq.gz
+│   ├── 890041890efd4bf80423f85ef3fd755ed868f2e9.nq.gz
+│   ├── 91d566be3c438e16ff4aabb3ddad6cd532a304b6.nq.gz
+│   ├── 99d025570e6eb44d186d421e09673081d6e96acf.nq.gz
+│   ├── a9f8435b44a39f4d8ec28c911def715f2e0e1268.nq.gz
+│   ├── af8ef195173af7d40e740948a3e07cdec55eea48.nq.gz
+│   ├── bdf3c32239308e9a95e84df4e0a755c73ee83bdd.nq.gz
+│   ├── c1380d8612815c2854e74e376d5699c30490ac78.nq.gz
+│   ├── ccd1796e42d5062aae4f42753a6fe59fee09e5c5.nq.gz
+│   ├── cda4b2c0a874745009a9a316aba9652384d82e21.nq.gz
+│   ├── dc9adae1e2d3128e0080dab2659abe379f446af4.nq.gz
+│   ├── dfdfbed1c39105bffca01a3017a9717bdaf81436.nq.gz
+│   ├── dfe6f54aed2f6d33bcfcc9ece9291a40559715d8.nq.gz
+│   ├── e62899b259e2217eb9bf450cc0134363dc19888b.nq.gz
+│   ├── e69de29bb2d1d6434b8b29ae775ad8c2e48c5391.nq.gz
+│   ├── ec341b8838438a45e26f7312984d300089351a25.nq.gz
+│   ├── ee91af1c2d5b44e15400657853ee7b13df5dd23e.nq.gz
+│   ├── f0c45c5538dedd6e30752e4184eb2ee902278f7a.nq.gz
+│   └── febf1a227ae16fc2e045c71ecbe664366b2018d7.nq.gz
+├── branch
+│   └── branch.nq.gz
+├── commit
+│   └── commit.nq.gz
+├── filetree
+│   └── 041b99b3ea3d24cc6eb756e58ebfda3032ad5037.nq.gz
+├── issue
+│   └── issue.nq.gz
+├── pr
+│   └── pr.nq.gz
+└── tag
+    └── tag.nq.gz
+
+13 directories, 47 files
+```
+
+| Directory | What it contains |
+|-----------|-----------------|
+| `blob/` | Per-file AST graphs, content-addressed by git blob SHA. Each file in the source repo gets its own graph. |
+| `aggregate/ast/` | Combined AST graph per parsed commit. Merges all blob graphs for a snapshot of the entire codebase at that point. |
+| `aggregate/lsp/` | Language Server Protocol enrichment: resolved symbols, definitions, references, and type information. |
+| `aggregate/dataflow/` | Interprocedural data flow edges between functions and modules. |
+| `aggregate/repolex/` | Combined graph (AST + LSP + dataflow) per commit. |
+| `commit/` | Git commit metadata (author, date, message, parent links). |
+| `branch/` | Branch metadata. |
+| `tag/` | Tag metadata. |
+| `filetree/` | File tree snapshots per commit (which files existed and their blob SHAs). |
+| `audit/` | Code architecture and graph audit reports per commit. |
+
+## Source repository
+
+[aio-libs/aiohttp-cors](https://github.com/aio-libs/aiohttp-cors)
+
+---
+*Parsed on 2026-10-10 by [repolex](https://repolex.ai)*

@@ -1,0 +1,11 @@
+{
+  "org": "aio-libs",
+  "repo": "aiohttp-cors",
+  "versions": [
+    {
+      "commit": "041b99b3ea3d24cc6eb756e58ebfda3032ad5037",
+      "tag": "",
+      "parsed_at": "2026-10-10T19:03:55.038552+00:00"
+    }
+  ]
+}
